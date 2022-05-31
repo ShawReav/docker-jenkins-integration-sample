@@ -11,13 +11,6 @@
     <maven.compiler.source>1.8</maven.compiler.source>
     <maven.compiler.target>1.8</maven.compiler.target>
     </properties>
-    <distributionManagement>
-         <site>
-                  <id>site-server</id>
-                  <name>Test Project Site</name>
-                  <url>https://hub.docker.com/repository/docker/omerwani/repo1</url>
-    </site>
-  </distributionManagement>
 <build>
     <finalName>docker-jenkins-integration-sample</finalName>
 </build>
